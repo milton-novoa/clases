@@ -1,0 +1,61 @@
+/*
+ css es un lenguje aliado a html que nos permite formatear de manera agradable al ojo humano los estilos de una pagina web
+
+ la estrctura basica para trabajar en css es
+
+ selector{
+    atributo: valor;
+}
+
+SELECTOR: el selector seleciona que elelmento se va a modificar
+
+TIPOS DE SELECTORES
+1-selector por etiqueta: cambia el estilo de todas las etiquetas
+2-selector por clase: cambia o modifica el estilo del elemento que use en su atributo class el estilo
+3-selector por id: cambia o modifica el estilo del elemento que use en su atributo id el estilo
+4-selector universal(*): modifica todo el html
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*selector por etiqueta:
+selector{
+}
+*/
+
+h2{
+    color: plum;
+    background-color: hotpink;
+    text-align: center;
+}
+
+/*selector de clase:
+.selector{
+}
+*/
+
+.articulo1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: peru;
+    padding: 10px;
+}
+
+/*selector por id:
+#selector{
+}
+*/
+
+#parrafo{
+    border-radius: 5px;
+    background-color:  rgb(120,45,200);
+    color: bisque;
+    padding: 5px;
+}
+/*agrupacion de señectores*/
+h1, .articulo, #parrafo{
+    text-align: right;
+}
